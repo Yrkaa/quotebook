@@ -2,3 +2,4 @@ project/app/__pycache__/
 project/app/migrations/__pycache__/
 project/db.sqlite3
 project/project/__pycache__/
+project/app/migrations/0001_initial.py
