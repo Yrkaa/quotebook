@@ -9,14 +9,19 @@
         .header{
             text-align: center;
         }
+
+        .author{
+           text-align: end;
+           margin-right: 800pt;
+        }
     </style>
 </head>
 <body>
     <h1 class="header">Цитатник</h1>
     
     {% for i in quotes %}
-        <h3>{{i.quote}}</h3>
-        <h5>{{i.author}}</h5>
+        <h3 class="quote">{{i.quote}}</h3>
+        <h5 class="author">©️ {{i.author}}</h5>
     {% endfor %}
 </body>
 </html>
