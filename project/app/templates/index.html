@@ -13,5 +13,10 @@
 </head>
 <body>
     <h1 class="header">Цитатник</h1>
+    
+    {% for i in quotes %}
+        <h3>{{i.quote}}</h3>
+        <h5>{{i.author}}</h5>
+    {% endfor %}
 </body>
 </html>
