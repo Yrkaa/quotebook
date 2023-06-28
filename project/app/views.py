@@ -6,3 +6,6 @@ from app.models import Quote
 def index(request):
     quotes = Quote.objects.all()
     return render(request, 'index.html', context={'quotes': quotes})
+
+def create(request):
+    return render(request, 'create_quote.html')
